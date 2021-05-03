@@ -9,7 +9,7 @@ public class Test {
 
 	public static void main(String[] args) throws Exception {
 		String uri = System.getenv("CLOUDAMQP_URL");
-		if (uri == null) uri = "amqps://bqctosod:I4imL3WG7FqlkXrbLBk0ydyXzVFypZnk@whale.rmq.cloudamqp.com/bqctosod";
+		if (uri == null) uri = "amqps://lqaekayw:EhmHDkP3Y3tiEBHGXFcqWsdrHQU4DcUp@whale.rmq.cloudamqp.com/lqaekayw";
 
 		ConnectionFactory factory = new ConnectionFactory();
 		factory.setUri(uri);
