@@ -1,2 +1,2 @@
 # client-rabbitmq
-App con producer e consumer rabbit
+Simple app with RabbitMQ producer and consumer
