@@ -19,7 +19,7 @@ public class Test {
 		Channel channel = connection.createChannel();
 
 		channel.queueDeclare("hello", false, false, false, null);
-		String message = "Hello CloudAMQP!";
+		String message = "Hello CloudAMQP!!!";
 		channel.basicPublish("", "hello", null, message.getBytes());
 		System.out.println(" [x] Sent '" + message + "'");
 
